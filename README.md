@@ -24,7 +24,7 @@
 
 ### CFG set 
 #### Make sure the setup is complete.
-#### If you don't finish it, you can't get into the system.
+#### If you don't finish it, you can't enter the system.
   
 [CFG-Lock read Step 7](https://www.tonymacx86.com/threads/gigabyte-z490-vision-d-thunderbolt-3-i5-10400-amd-rx-580.298642/)
 
