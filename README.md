@@ -22,7 +22,20 @@
 
 ## Details
 
+### CFG set 
+#### Make sure the setup is complete.
+#### If you don't finish it, you can't get into the system.
+  
+[CFG-Lock read Step 7](https://www.tonymacx86.com/threads/gigabyte-z490-vision-d-thunderbolt-3-i5-10400-amd-rx-580.298642/)
+
+### Don't forget to set PlatformInfo
+
+#### Ensure Facetime iMessage can work 
+    https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/comet-lake.html#platforminfo
+
+
 ### UHD 630 
+
     <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
     <dict>
         <key>AAPL,ig-platform-id</key>
@@ -35,10 +48,7 @@
         <data>AAAAQA==</data>
     </dict>
 
-### Don't forget to set PlatformInfo
 
-#### Ensure Facetime iMessage can work 
-    https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/comet-lake.html#platforminfo
 
 ### BIOS
 
@@ -54,9 +64,6 @@
 - EHCI/XHCI Hand-off
 - OS type : other
 
-### CFG set 
-
-[CFG-Lock read Step 7](https://www.tonymacx86.com/threads/gigabyte-z490-vision-d-thunderbolt-3-i5-10400-amd-rx-580.298642/)
 ## Credits
 https://github.com/SchmockLord/Hackintosh-Intel-i9-10900k-Gigabyte-Z490-Vision-D
 
