@@ -61,7 +61,6 @@
 #### Enable
 - EHCI/XHCI Hand-off
 - Above 4G decoding
-- EHCI/XHCI Hand-off
 - OS type : other
 
 ## Credits
