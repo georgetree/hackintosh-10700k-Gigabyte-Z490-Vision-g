@@ -1,6 +1,6 @@
 # 10700k-Gigabyte-Z490-Vision-g
 ![](1.png)
-
+![](2.png)
 ## Based on
     https://github.com/samuel21119/Intel-i9-10900-Gigabyte-Z490-Vision-G-Hackintosh
 
@@ -16,10 +16,14 @@
 - Audio
 - Reboot and Shutdown
 - UHD 630 
-- R9 280X
+- R9 280X (optional)
+- Onboard HDMI/DP port
 ## Not working 
-- Motherboard HDMI port (DP port is working)
+- ~~Motherboard HDMI port (DP port is working)~~
+  
 
+  Using latest WhateverGreen,Lilu and add Framebuffer Patching  
+[Framebuffer Patching GUIDE](https://www.tonymacx86.com/threads/guide-general-framebuffer-patching-guide-hdmi-black-screen-problem.269149/)
 ## Details
 
 ### CFG set 
@@ -31,22 +35,65 @@
 ### Don't forget to set PlatformInfo
 
 #### Ensure Facetime iMessage can work 
-    https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/comet-lake.html#platforminfo
+    https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo
 
 
 ### UHD 630 
+#### Framebuffer Patching
 
-    <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
     <dict>
         <key>AAPL,ig-platform-id</key>
         <data>BwCbPg==</data>
         <key>device-id</key>
         <data>mz4AAA==</data>
+        <key>framebuffer-stolenmem</key>
+        <data>AAAwAQ==</data>
+        <key>framebuffer-fbmem</key>
+        <data>AACQAA==</data>
+        <key>framebuffer-con1-busid</key>
+        <data>BAAAAA==</data>
+        <key>framebuffer-con1-enable</key>
+        <data>AQAAAA==</data>
+        <key>framebuffer-con1-flags</key>
+        <data>xwMAAA==</data>
+        <key>framebuffer-con1-index</key>
+        <data>AwAAAA==</data>
+        <key>framebuffer-con1-pipe</key>
+        <data>CAAAAA==</data>
+        <key>framebuffer-con1-type</key>
+        <data>AAgAAA==</data>
+        <key>framebuffer-con2-busid</key>
+        <data>AQAAAA==</data>
+        <key>framebuffer-con2-enable</key>
+        <data>AQAAAA==</data>
+        <key>framebuffer-con2-index</key>
+        <data>AgAAAA==</data>
+        <key>framebuffer-con2-type</key>
+        <data>AAQAAA==</data>
+        <key>framebuffer-con2-flags</key>
+        <data>xwMAAA==</data>
+        <key>framebuffer-con2-pipe</key>
+        <data>CgAAAA==</data>
+        <key>framebuffer-con0-busid</key>
+        <data>BQAAAA==</data>
+        <key>framebuffer-con0-enable</key>
+        <data>AQAAAA==</data>
+        <key>framebuffer-con0-flags</key>
+        <data>xwMAAA==</data>
+        <key>framebuffer-con0-index</key>
+        <data>AQAAAA==</data>
+        <key>framebuffer-con0-pipe</key>
+        <data>CQAAAA==</data>
+        <key>framebuffer-con0-type</key>
+        <data>AAQAAA==</data>
         <key>framebuffer-patch-enable</key>
         <data>AQAAAA==</data>
-        <key>framebuffer-stolenmem</key>
-        <data>AAAAQA==</data>
+        <key>model</key>
+        <string>Intel UHD Graphics 630</string>
     </dict>
+ 
+
+ 
 
 
 
