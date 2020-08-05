@@ -7,7 +7,7 @@
 
 ## Hardware
 - i7 10700k
-- R9 280X
+- R9 280X (optional)
 - 32GB ram
 - Fenvi T919
 ## Working
@@ -16,7 +16,7 @@
 - Audio
 - Reboot and Shutdown
 - UHD 630 
-- R9 280X (optional)
+- R9 280X 
 - Onboard HDMI/DP port
 ## Not working 
 - ~~Motherboard HDMI port (DP port is working)~~
