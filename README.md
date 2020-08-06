@@ -7,6 +7,7 @@
 
 ## Hardware
 - i7 10700k
+- GIGABYTE Z490 VISION G 
 - R9 280X (optional)
 - 32GB ram
 - Fenvi T919
