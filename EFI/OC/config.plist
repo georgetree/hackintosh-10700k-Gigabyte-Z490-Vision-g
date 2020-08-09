@@ -200,16 +200,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>IOName</key>
-				<string>#display
-</string>
-				<key>class-code	</key>
-				<data>/////w==</data>
-				<key>name	</key>
-				<data>I2Rpc3BsYXk=</data>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1C,0x1)/Pci(0x0, 0x0)</key>
 			<dict>
 				<key>device-id</key>
