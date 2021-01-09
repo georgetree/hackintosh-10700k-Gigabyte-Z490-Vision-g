@@ -4,7 +4,7 @@
 ## Based on
     https://github.com/samuel21119/Intel-i9-10900-Gigabyte-Z490-Vision-G-Hackintosh
 
-
+### OC version 0.6.5
 ## Hardware
 - i7 10700k
 - GIGABYTE Z490 VISION G 
