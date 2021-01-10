@@ -696,7 +696,7 @@
 			<key>CustomSMBIOSGuid</key>
 			<false/>
 			<key>DisableIoMapper</key>
-			<false/>
+			<true/>
 			<key>DisableLinkeditJettison</key>
 			<true/>
 			<key>DisableRtcChecksum</key>
@@ -964,7 +964,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string></string>
+			<string>C020107004NPHCDCB</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -976,9 +976,9 @@
 			<key>SystemProductName</key>
 			<string>iMac20,1</string>
 			<key>SystemSerialNumber</key>
-			<string></string>
+			<string>C02CDSZXPN5T</string>
 			<key>SystemUUID</key>
-			<string></string>
+			<string>E36346A2-5D1F-47DD-BC76-9A1ECAE5D0F0</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
