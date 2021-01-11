@@ -29,10 +29,12 @@
 ## Details
 
 ### CFG set 
-#### Make sure the setup is complete.
-#### If you don't finish it, you can't enter the system.
-  
-[CFG-Lock read Step 7](https://www.tonymacx86.com/threads/gigabyte-z490-vision-d-thunderbolt-3-i5-10400-amd-rx-580.298642/)
+#### ~~Make sure the setup is complete.~~
+#### ~~If you don't finish it, you can't enter the system.~~
+~~[CFG-Lock read Step 7](https://www.tonymacx86.com/threads/gigabyte-z490-vision-d-thunderbolt-3-i5-10400-amd-rx-580.298642/)~~
+
+#### Update Bios version to F6.
+#### CFG Lock switcher in bios menu (set disable) 
 
 ### Don't forget to set PlatformInfo
 
@@ -106,7 +108,7 @@
 - CSM
 - Intel SGX
 - Secure Boot
-
+- CFG Lock
 #### Enable
 - EHCI/XHCI Hand-off
 - Above 4G decoding
