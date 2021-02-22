@@ -96,8 +96,8 @@
         <string>Intel UHD Graphics 630</string>
     </dict>
  
-
- 
+#### 4k resolution 
+#### If you use 4k display, you can refer [this link](https://github.com/georgetree/hackintosh-10700k-Gigabyte-Z490-Vision-g/issues/3)  
 
 
 
