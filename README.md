@@ -44,6 +44,7 @@
 
 ### UHD 630 
 #### Framebuffer Patching
+#### Thank [@augstb](https://github.com/georgetree/hackintosh-10700k-Gigabyte-Z490-Vision-g/issues/3#issuecomment-785422044) for fixing sleep HDMI unplug/replug
 
     <dict>
         <key>AAPL,ig-platform-id</key>
@@ -59,7 +60,7 @@
         <key>framebuffer-con1-enable</key>
         <data>AQAAAA==</data>
         <key>framebuffer-con1-flags</key>
-        <data>xwMAAA==</data>
+        <data>zwMAAA==</data>
         <key>framebuffer-con1-index</key>
         <data>AwAAAA==</data>
         <key>framebuffer-con1-pipe</key>
