@@ -24,21 +24,16 @@
 - ~~Motherboard HDMI port (DP port is working)~~
   
 
-  Using latest WhateverGreen,Lilu and add Framebuffer Patching  
+Install the latest WhateverGreen,Lilu and add Framebuffer Patching  
 [Framebuffer Patching GUIDE](https://www.tonymacx86.com/threads/guide-general-framebuffer-patching-guide-hdmi-black-screen-problem.269149/)
 ## Details
 
-### CFG set 
-#### ~~Make sure the setup is complete.~~
-#### ~~If you don't finish it, you can't enter the system.~~
-~~[CFG-Lock read Step 7](https://www.tonymacx86.com/threads/gigabyte-z490-vision-d-thunderbolt-3-i5-10400-amd-rx-580.298642/)~~
 
 #### Update Bios version to F6.
-#### CFG Lock switcher in bios menu (set disable) 
+#### Disable CFG Lock in bios menu
 
-### Don't forget to set PlatformInfo
+### Set PlatformInfo (Facetime iMessage need it)
 
-#### Ensure Facetime iMessage can work 
     https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html#platforminfo
 
 
